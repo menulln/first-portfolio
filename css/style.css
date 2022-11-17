@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    min-height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +41,19 @@ header > h2 {
 
 .button-darkmode:active {
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    min-width: 80vw;
+    max-width: 80vw;
+    min-height: calc(100vh - 18.25vh);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 footer {
