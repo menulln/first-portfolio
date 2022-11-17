@@ -109,6 +109,33 @@ main {
     height: 24px;
 }
 
+.cards {
+    min-width: 80vw;
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.card {
+    flex: 1 0 31%;
+    /*width: 20vw;
+    height: 20vh;*/
+    background-color: grey;
+}
+/*
+@media only screen and ( max-width: 1020px) {
+    .flex-container > div {
+      flex-basis: 45%;
+    }
+  }
+  
+@media only screen and ( max-width: 368px) {
+    .flex-container > div {
+      flex-basis: 80%;
+    }
+}
+*/
 footer {
     display: flex;
     justify-content: center;
