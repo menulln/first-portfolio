@@ -50,20 +50,11 @@ footer {
 }
 
 .github-icon {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
+    transition: all 0.5s ease-in-out;
 }
 
 .github-icon:hover {
-    animation: spin 0.5s ease-in-out;
-}
-
-@keyframes spin {
-    from {
-        rotate: 0deg;
-        scale: 1;
-    } to {
-        rotate: 360deg;
-        scale: 1.1;
-    } 
+    transform: rotate(360deg) scale(1.1);
 }
