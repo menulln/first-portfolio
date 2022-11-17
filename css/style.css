@@ -75,7 +75,7 @@ main {
 .html::before {
     display: inline-block;
     content: '';
-    background: url(../img/icons/icons8-html-5-48.png);
+    background: url(../img/icons/icons8-html-5-48.png); /* https://icons8.com/ */
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
@@ -89,7 +89,7 @@ main {
 .css::before {
     display: inline-block;
     content: '';
-    background: url(../img/icons/icons8-css3-48.png);
+    background: url(../img/icons/icons8-css3-48.png); /* https://icons8.com/ */
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
@@ -103,7 +103,7 @@ main {
 .js::before {
     display: inline-block;
     content: '';
-    background: url(../img/icons/icons8-javascript-48.png);
+    background: url(../img/icons/icons8-javascript-48.png); /* https://icons8.com/ */
     background-size: 24px 24px;
     width: 24px;
     height: 24px;
