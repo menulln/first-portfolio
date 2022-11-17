@@ -20,7 +20,7 @@ header {
 
 header > h2 {
     margin-left: auto;
-    /*margin-right: -3rem;*/
+    margin-right: -3rem;
     font-size: 1.5rem;
 }
 
@@ -54,6 +54,59 @@ main {
     min-height: calc(100vh - 18.25vh);
     border-left: 1px solid rgba(0, 0, 0, 0.2);
     border-right: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack-info {
+    display: flex;
+    gap: 2vw;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(90deg, #d367c1 10%, #dedf40 25%, #62cb5c 50%, #00bbcb 75%, #ab79d6 90%) 0 0 1 0;
+}
+
+.html {
+    display: flex;
+    align-items: flex-end;
+}
+
+.html::before {
+    display: inline-block;
+    content: '';
+    background: url(../img/icons/icons8-html-5-48.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.css {
+    display: flex;
+    align-items: flex-end;
+}
+
+.css::before {
+    display: inline-block;
+    content: '';
+    background: url(../img/icons/icons8-css3-48.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.js {
+    display: flex;
+    align-items: flex-end;
+}
+
+.js::before {
+    display: inline-block;
+    content: '';
+    background: url(../img/icons/icons8-javascript-48.png);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
 }
 
 footer {
