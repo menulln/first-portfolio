@@ -180,6 +180,10 @@ main {
     background-image: url(../img/projects/rock-paper-scissors.png);
 }
 
+.portfolio {
+    background-image: url(../img/projects/portfolio.png);
+}
+
 footer {
     display: flex;
     justify-content: center;
