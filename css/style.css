@@ -1,3 +1,7 @@
+* {
+    transition: all 0.3s;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -127,8 +131,8 @@ main {
     max-width: 75vw;
     height: 33vh;
     background-size: cover;
-    background-position: top;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-position: center;
+
     border-radius: 24px;
     margin: 2vh;
     box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.6);
@@ -262,4 +266,38 @@ footer {
 .modal-live,
 .modal-time {
     font-weight: bold;
+}
+
+.darkmode-background {
+    background-color: #121212;
+}
+
+.darkmode-element {
+    background-color: #181818;
+    color: #FAFAFA;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.darkmode-header {
+    background-color: #181818;
+    color: #FAFAFA;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.darkmode-main {
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    color: #FAFAFA;
+}
+
+.darkmode-footer {
+    background-color: #181818;
+    color: #FAFAFA;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.darkmode-m-header {
+    background-color: #181818;
+    color: #FAFAFA;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
