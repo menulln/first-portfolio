@@ -191,3 +191,7 @@ footer {
 .github-icon:hover {
     transform: rotate(360deg) scale(1.1);
 }
+
+.github-icon:active {
+    transform: rotate(360deg) scale(1.1);
+}
