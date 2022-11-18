@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
+    background-color: #FAFAFA;
     font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
     min-height: 100vh;
     display: flex;
@@ -110,32 +110,59 @@ main {
 }
 
 .cards {
+    margin-top: 3.5vh;
     min-width: 80vw;
     max-width: 80vw;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 2vw;
 }
 
 .card {
-    flex: 1 0 31%;
-    /*width: 20vw;
-    height: 20vh;*/
-    background-color: grey;
+    flex: 1 1 40vmin;
+    width: calc(1280px / 3);
+    height: calc(720px / 3);
+    background-size: cover;
+    background-position: top;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    margin: 2vh;
+    box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.6);
 }
-/*
-@media only screen and ( max-width: 1020px) {
-    .flex-container > div {
-      flex-basis: 45%;
-    }
-  }
-  
-@media only screen and ( max-width: 368px) {
-    .flex-container > div {
-      flex-basis: 80%;
-    }
+
+.card-background {
+    width: auto;
+    height: inherit;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+    border: inherit;
+    border-radius: inherit; 
+    color: #FAFAFA;
+    font-size: clamp(2rem, 5vw, 2.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-*/
+
+.landing-page {
+    background-image: url(../img/projects/landing-page.png);
+}
+
+.calculator {
+    background-image: url(../img/projects/calculator.png);
+}
+
+.get-keycode {
+    background-image: url(../img/projects/get-keycode.png);
+}
+
+.sketch {
+    background-image: url(../img/projects/sketch.png);
+}
+
+.rock {
+    background-image: url(../img/projects/rock-paper-scissors.png);
+}
+
 footer {
     display: flex;
     justify-content: center;
