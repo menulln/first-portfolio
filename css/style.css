@@ -21,14 +21,14 @@ header {
 header > h2 {
     margin-left: auto;
     margin-right: -3rem;
-    font-size: 1.5rem;
+    font-size: calc(1rem + 1.5vmin);
 }
 
 .button-darkmode {
     margin-left: auto;
     margin-right: 1rem;
-    width: 2rem;
-    height: 2rem;
+    width: calc(2rem + 0.1vmin);
+    height: calc(2rem + 0.1vmin);
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -63,8 +63,9 @@ main {
     display: flex;
     gap: 2vw;
     border-style: solid;
-    border-width: 3px;
+    border-width: 0.5vh;
     border-image: linear-gradient(90deg, #d367c1 10%, #dedf40 25%, #62cb5c 50%, #00bbcb 75%, #ab79d6 90%) 0 0 1 0;
+    font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 .html {
@@ -110,7 +111,7 @@ main {
 }
 
 .cards {
-    margin-top: 3.5vh;
+    margin-top: 2vh;
     min-width: 80vw;
     max-width: 80vw;
     display: flex;
@@ -120,23 +121,24 @@ main {
 
 .card {
     flex: 1 1 40vmin;
-    width: calc(1280px / 3);
-    height: calc(720px / 3);
+    min-width: 30vw;
+    max-width: 75vw;
+    height: 33vh;
     background-size: cover;
     background-position: top;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 24px;
     margin: 2vh;
     box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.6);
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 .card:active {
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 .card-background {
